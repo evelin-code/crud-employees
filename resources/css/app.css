@@ -1,0 +1,100 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.logo {
+    height: 50px;
+    width: 150px;
+}
+
+.header-card {
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.3);
+    border: none;
+}
+
+.btn-action-edit {
+    background-color: #21211d;
+    color: #fafcff;
+    border: none;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.btn-action-edit:hover {
+    background-color: #383831;
+    color: #fafcff;
+    text-decoration: none;
+}
+
+.btn-action-delete {
+    background-color: #dc3d3d;
+    color: #fafcff;
+    border: none;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.btn-action-delete:hover {
+    background-color: #f61818;
+    color: #fafcff;
+    border: none;
+    font-weight: 300;
+}
+
+.btn-action-create {
+    background-color: #21211d;
+    color: #fafcff;
+    border: none;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.btn-action-create:hover {
+    background-color: #383831;
+    color: #fafcff;
+    border: none;
+    font-weight: 300;
+}
+
+.btn-create {
+    width: 80px;
+    height: 30px;
+    background-color: #21211d;
+    color: #fafcff;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    margin: 10px 0px 0px 0px;
+}
+
+.btn-create:hover {
+    background-color: #383831;
+    border: none;
+}
+
+.ms-error {
+    color: #dc3d3d;
+}
+
+
+.scrolllable {
+    overflow-x: scroll;
+    overflow-y: scroll;
+    height: 500px;
+}
+
+.scrolllable::-webkit-scrollbar {
+    width: 9px;
+    height: 9px;
+}
+
+.scrolllable::-webkit-scrollbar-thumb {
+    background: rgba(66, 65, 70, 0.3);
+    border-radius: 4px;
+    opacity: 0.5;
+}
